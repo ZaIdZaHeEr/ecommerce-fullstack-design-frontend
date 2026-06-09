@@ -1,0 +1,573 @@
+/* Universal Resizing Reset Fix */
+.admin-container,
+.admin-container *,
+.admin-container *::before,
+.admin-container *::after {
+  box-sizing: border-box;
+}
+
+.admin-container {
+  max-width: 970px;
+  width: 90%;
+  margin: 2rem auto;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1c1c1c;
+}
+
+.admin-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.admin-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.btn-add-new {
+  background: #0d6efd;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Fluid Flexbox Grid Layout Architecture */
+.admin-layout {
+  display: grid;
+  grid-template-columns: 330px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.admin-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Left Sidebar Form Card Container Styles */
+.sidebar-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ee;
+  border-radius: 6px;
+  padding: 1.25rem;
+  width: 100%;
+}
+
+.form-card h3 {
+  font-size: 1.05rem;
+  margin: 0 0 1.25rem 0;
+  font-weight: 600;
+  color: #1c1c1c;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.9rem;
+  width: 100%;
+}
+
+.form-row-split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.form-group label {
+  font-size: 0.825rem;
+  font-weight: 500;
+  color: #505050;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.55rem;
+  border: 1px solid #e3e8ee;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  outline: none;
+  background-color: #fff;
+  color: #1c1c1c;
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #0d6efd;
+}
+
+/* Image Field Form Upload Custom CSS Block */
+.image-upload-wrapper {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  background: #f8f9fa;
+  border: 1px dashed #c8d2db;
+  border-radius: 6px;
+  padding: 0.65rem;
+  width: 100%;
+}
+
+.form-img-preview {
+  width: 55px;
+  height: 55px;
+  border: 1px solid #e3e8ee;
+  border-radius: 4px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.form-img-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.upload-icon-placeholder {
+  font-size: 1.25rem;
+  color: #8b96a5;
+}
+
+.file-input-controls {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.hidden-file-input {
+  display: none !important;
+}
+
+.btn-file-label {
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #e3e8ee;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #1c1c1c;
+}
+
+.file-path-indicator {
+  font-size: 0.75rem;
+  color: #8b96a5;
+  margin: 0.25rem 0 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Action Control Row Buttons */
+.form-actions-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.btn-submit-form {
+  flex-grow: 1;
+  background: #00b517;
+  color: white;
+  border: none;
+  padding: 0.65rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-submit-form:hover {
+  background: #009e14;
+}
+
+.btn-cancel {
+  background: #fff;
+  color: #505050;
+  border: 1px solid #e3e8ee;
+  padding: 0.65rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* Modernized Grid Container Overriding Classical HTML Tables */
+.inventory-card {
+  background: #ffffff;
+  border: 1px solid #e3e8ee;
+  border-radius: 6px;
+  width: 100%;
+}
+
+/* Symmetrical Proportional Column Scaling Rule definitions */
+.inventory-grid-header,
+.inventory-grid-row {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+.inventory-grid-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e3e8ee;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #8b96a5;
+}
+
+.inventory-grid-row {
+  border-bottom: 1px solid #e3e8ee;
+  padding: 1rem;
+  transition: background-color 0.2s;
+}
+
+.inventory-grid-body .inventory-grid-row:last-child {
+  border-bottom: none;
+}
+
+.row-editing {
+  background-color: #f4f8ff !important;
+}
+
+/* Column Proportional Base Flex Width Targets */
+.col-details {
+  flex: 2.2;
+  min-width: 0;
+}
+.col-type {
+  flex: 1;
+  min-width: 0;
+  padding-left: 0.5rem;
+}
+.col-price {
+  flex: 1;
+  min-width: 0;
+}
+.col-actions {
+  flex: 1.3;
+  min-width: 135px;
+  flex-shrink: 0;
+}
+
+/* Product Row Inner UI Styling */
+.table-product-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.table-text-container {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.table-img-box {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  background-color: #f4f6f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.table-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.img-placeholder {
+  font-size: 1rem;
+  color: #c8d2db;
+}
+
+.table-product-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0 0 0.15rem 0;
+  color: #1c1c1c;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pid-badge {
+  font-size: 0.75rem;
+  color: #8b96a5;
+  font-weight: 400;
+}
+
+.table-product-sub {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.75rem;
+  color: #8b96a5;
+  margin: 0;
+}
+
+.badge-category {
+  display: inline-block;
+  background: #eff2f4;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #4f5d73;
+}
+
+.price-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-product-price {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.table-product-strike {
+  font-size: 0.75rem;
+  color: #fa3434;
+  text-decoration: line-through;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Action Control Inline Button Layouts */
+.table-actions {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.table-actions button {
+  background: none;
+  border: 1px solid #e3e8ee;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  color: #0d6efd;
+}
+
+.btn-edit:hover {
+  background-color: #f0f6ff;
+  border-color: #0d6efd;
+}
+
+.btn-delete {
+  color: #fa3434;
+}
+
+.btn-delete:hover {
+  background-color: #fff1f1;
+  border-color: #fa3434;
+}
+
+.empty-table-state {
+  text-align: center;
+  color: #8b96a5;
+  padding: 3rem;
+  font-size: 0.9rem;
+}
+
+/* Alert Notification Status Banners */
+.status-banner {
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  width: 100%;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.success-banner {
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.error-banner {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+.mobile-only {
+  display: none !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Mobile Media Engine Responsive Overrides */
+@media (max-width: 768px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+
+  .admin-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+
+  .admin-header-row {
+    padding: 1rem;
+    margin-bottom: 0;
+    background: #fff;
+    border-bottom: 1px solid #e3e8ee;
+  }
+
+  .admin-layout {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+
+  .sidebar-card.form-card {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+  .mobile-inventory-list {
+    padding: 0.25rem 0;
+  }
+
+  .mobile-product-card {
+    background: #fff;
+    border-top: 1px solid #e3e8ee;
+    border-bottom: 1px solid #e3e8ee;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+  }
+
+  .mobile-card-body {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .mobile-card-details {
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  .mobile-card-title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0 0 0.25rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mobile-card-meta {
+    font-size: 0.75rem;
+    color: #8b96a5;
+    margin: 0 0 0.15rem 0;
+  }
+
+  .truncated-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .mobile-price-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.4rem;
+  }
+
+  .mobile-card-price {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  .mobile-price-row del {
+    font-size: 0.75rem;
+    color: #fa3434;
+  }
+
+  .mobile-card-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    border-top: 1px solid #f4f6f8;
+    padding-top: 0.75rem;
+  }
+
+  .mobile-card-actions button {
+    padding: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .btn-edit-mob {
+    background: #fff;
+    border: 1px solid #e3e8ee;
+    color: #0d6efd;
+  }
+
+  .btn-delete-mob {
+    background: #fff;
+    border: 1px solid #e3e8ee;
+    color: #fa3434;
+  }
+}
