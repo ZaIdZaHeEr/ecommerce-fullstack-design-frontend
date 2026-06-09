@@ -9,17 +9,17 @@ function Footer() {
       <section className="section-first-footer-container">
         <div className="first-footer-container">
           <div className="section-one">
-            <img src="src/assets/logo-colored.png" alt="" />
+            <img src="/images/logo-colored.png" alt="" />
             <p className="light-para">
               Best information about the company gies here but now lorem ipsum
               is
             </p>
             <div className="socials">
-              <img src="src/assets/facebook3.svg" alt="" />
-              <img src="src/assets/instagram3.svg" alt="" />
-              <img src="src/assets/linkedin3.svg" alt="" />
-              <img src="src/assets/twitter3.svg" alt="" />
-              <img src="src/assets/youtube3.svg" alt="" />
+              <img src="/images/facebook3.svg" alt="" />
+              <img src="/images/instagram3.svg" alt="" />
+              <img src="/images/linkedin3.svg" alt="" />
+              <img src="/images/twitter3.svg" alt="" />
+              <img src="/images/youtube3.svg" alt="" />
             </div>
           </div>
           <div className="section-two">
@@ -59,8 +59,8 @@ function Footer() {
           </div>
           <div className="section-six">
             <p className="headings">About</p>
-            <img src="src/assets/Group.png" alt="" />
-            <img src="src/assets/market-button.png" alt="" />
+            <img src="/images/Group.png" alt="" />
+            <img src="/images/market-button.png" alt="" />
           </div>
         </div>
       </section>
@@ -68,7 +68,7 @@ function Footer() {
         <div className="section-second-footer">
           <p className="light-para">@2023 Ecommerce</p>
           <div className="region-selector">
-            <img src="src/assets/US@2x.png" alt="" />
+            <img src="/images/US@2x.png" alt="" />
             <select name="" id="">
               <option value="" selected>
                 English
