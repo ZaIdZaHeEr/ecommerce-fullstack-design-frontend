@@ -37,7 +37,7 @@ img {
   width: 49%;
   display: flex;
   /* border: 1px solid red; */
-  background: url("src/assets/Banner-board.png");
+  background: url("/images/Banner-board.png");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -296,7 +296,7 @@ img {
   background-color: white;
 }
 .h-o-left {
-  background-image: url("src/assets/Group 969.png");
+  background-image: url("/images/Group 969.png");
   display: flex;
   padding: 1em;
   border: none;
@@ -390,7 +390,7 @@ img {
 
 .section-send-request {
   display: flex;
-  background-image: url("src/assets/Group 982.png");
+  background-image: url("/images/Group 982.png");
   padding: 1em;
   max-width: 970px;
   width: 90%;

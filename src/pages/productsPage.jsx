@@ -45,7 +45,7 @@ function ProductsPage() {
                 <summary>
                   <div className="filter-title">
                     <p>Category</p>
-                    <img src="src/assets/Vector.png" alt="" />
+                    <img src="/images/Vector.png" alt="" />
                   </div>
                 </summary>
                 <ul>
@@ -62,7 +62,7 @@ function ProductsPage() {
                 <summary>
                   <div className="filter-title">
                     <p>Brands</p>
-                    <img src="src/assets/Vector.png" alt="" />
+                    <img src="/images/Vector.png" alt="" />
                   </div>
                 </summary>
                 <ul>
@@ -90,7 +90,7 @@ function ProductsPage() {
                 <summary>
                   <div className="filter-title">
                     <p>Features</p>
-                    <img src="src/assets/Vector.png" alt="" />
+                    <img src="/images/Vector.png" alt="" />
                   </div>
                 </summary>
                 <ul>
@@ -118,7 +118,7 @@ function ProductsPage() {
                 <summary>
                   <div className="filter-title">
                     <p>Price range</p>
-                    <img src="src/assets/Vector.png" alt="" />
+                    <img src="/images/Vector.png" alt="" />
                   </div>
                 </summary>
                 <ul>
@@ -152,10 +152,10 @@ function ProductsPage() {
 
                 <div className="view-selector">
                   <div className="grid-selector" onClick={toggle_grid_view}>
-                    <img src="src/assets/gridview.svg" alt="" />
+                    <img src="/images/gridview.svg" alt="" />
                   </div>
                   <div className="list-selector" onClick={toggle_list_view}>
-                    <img src="src/assets/listview.svg" alt="" />
+                    <img src="/images/listview.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -221,7 +221,7 @@ function ProductsPage() {
                       </p>
 
                       <div className="add-to-favourities">
-                        <img src="src/assets/icon6.png" alt="" />
+                        <img src="/images/icon6.png" alt="" />
                       </div>
                     </div>
                   </section>
@@ -270,7 +270,7 @@ function ProductsPage() {
                       </p>
 
                       <div className="add-to-favourities">
-                        <img src="src/assets/icon6.png" alt="" />
+                        <img src="/images/icon6.png" alt="" />
                       </div>
                     </div>
                   </section>
