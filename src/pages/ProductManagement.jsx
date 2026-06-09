@@ -24,7 +24,7 @@ export default function ProductManagement() {
   });
 
   // Updated base domain explicitly pointing to your active port 5000
-  const API_BASE = "http://localhost:5000";
+  const API_URL = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     fetchProducts();
@@ -32,7 +32,7 @@ export default function ProductManagement() {
 
   const fetchProducts = async () => {
     try {
-      const res = await fetch(`${API_BASE}/getProducts`);
+      const res = await fetch(`${API_URL}/getProducts`);
       const data = await res.json();
       if (res.ok) {
         setProducts(data.products);
@@ -89,7 +89,7 @@ export default function ProductManagement() {
   const handleEditClick = (product) => {
     setIsEditing(true);
     setImageFile(null);
-    setImagePreview(product.imagePath ? `${API_BASE}${product.imagePath}` : "");
+    setImagePreview(product.imagePath ? `${API_URL}${product.imagePath}` : "");
     setFormData({
       productId: product.productId,
       name: product.name,
@@ -118,8 +118,8 @@ export default function ProductManagement() {
     });
 
     const endpoint = isEditing
-      ? `${API_BASE}/updateProduct`
-      : `${API_BASE}/addProduct`;
+      ? `${API_URL}/updateProduct`
+      : `${API_URL}/addProduct`;
     const method = isEditing ? "PUT" : "POST";
 
     try {
@@ -150,7 +150,7 @@ export default function ProductManagement() {
       return;
 
     try {
-      const res = await fetch(`${API_BASE}/deleteProduct`, {
+      const res = await fetch(`${API_URL}/deleteProduct`, {
         method: "DELETE",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ productId }),
@@ -388,7 +388,7 @@ export default function ProductManagement() {
                   <div className="col-details table-product-cell">
                     <div className="table-img-box">
                       {product.imagePath ? (
-                        <img src={`${API_BASE}${product.imagePath}`} alt="" />
+                        <img src={`${API_URL}${product.imagePath}`} alt="" />
                       ) : (
                         <div className="img-placeholder">📸</div>
                       )}
@@ -456,7 +456,7 @@ export default function ProductManagement() {
                 <div className="mobile-card-body">
                   <div className="table-img-box">
                     {product.imagePath ? (
-                      <img src={`${API_BASE}${product.imagePath}`} alt="" />
+                      <img src={`${API_URL}${product.imagePath}`} alt="" />
                     ) : (
                       <div className="img-placeholder">📸</div>
                     )}
