@@ -47,7 +47,7 @@ function MainPage() {
           <div className="main-right">
             <div className="one">
               <div className="one-one">
-                <img src="src/assets/Avatar.png" alt="" />
+                <img src="/images/Avatar.png" alt="" />
                 <h3>Hi, user let's get started</h3>
               </div>
               <button style={{ backgroundColor: "#0067ff", color: "white" }}>
@@ -95,7 +95,7 @@ function MainPage() {
               }}
             >
               <div className="item-img">
-                <img src="src/assets/8.png" alt="" />
+                <img src="/images/8.png" alt="" />
               </div>
               <div className="item-name">
                 <p>Smart Watches</p>
@@ -111,7 +111,7 @@ function MainPage() {
               }}
             >
               <div className="item-img">
-                <img src="src/assets/image 34.png" alt="" />
+                <img src="/images/image 34.png" alt="" />
               </div>
               <div className="item-name">
                 <p>Laptops</p>
@@ -127,7 +127,7 @@ function MainPage() {
               }}
             >
               <div className="item-img">
-                <img src="src/assets/6.png" alt="" />
+                <img src="/images/6.png" alt="" />
               </div>
               <div className="item-name">
                 <p>GoPro cameras</p>
@@ -143,7 +143,7 @@ function MainPage() {
               }}
             >
               <div className="item-img">
-                <img src="src/assets/image 29.png" alt="" />
+                <img src="/images/image 29.png" alt="" />
               </div>
               <div className="item-name">
                 <p>Headphones</p>
@@ -159,7 +159,7 @@ function MainPage() {
               }}
               >
               <div className="item-img">
-                <img src="src/assets/image 23.png" alt="" />
+                <img src="/images/image 23.png" alt="" />
               </div>
               <div className="item-name">
                 <p>Smart phones</p>
@@ -184,7 +184,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/1.png" alt="" />
+                  <img src="/images/1.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -194,7 +194,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/1.png" alt="" />
+                  <img src="/images/1.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -204,7 +204,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 93.png" alt="" />
+                  <img src="/images/image 93.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -214,7 +214,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 90.png" alt="" />
+                  <img src="/images/image 90.png" alt="" />
                 </div>
               </div>
             </div>
@@ -226,7 +226,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/9.png" alt="" />
+                  <img src="/images/9.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -236,7 +236,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/1.png" alt="" />
+                  <img src="/images/1.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -246,7 +246,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/7.png" alt="" />
+                  <img src="/images/7.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -256,7 +256,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 89.png" alt="" />
+                  <img src="/images/image 89.png" alt="" />
                 </div>
               </div>
             </div>
@@ -264,7 +264,7 @@ function MainPage() {
         </section>
         <section className="section-home-outdoor">
           <div
-            style={{ backgroundImage: "url('src/assets/image 98.png')" }}
+            style={{ backgroundImage: "url('/images/image 98.png')" }}
             className="h-o-left"
           >
             <p>Home and outdoor</p>
@@ -279,7 +279,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/8.png" alt="" />
+                  <img src="/images/8.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -289,7 +289,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/6.png" alt="" />
+                  <img src="/images/6.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -299,7 +299,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 86.png" alt="" />
+                  <img src="/images/image 86.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -309,7 +309,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 85.png" alt="" />
+                  <img src="/images/image 85.png" alt="" />
                 </div>
               </div>
             </div>
@@ -321,7 +321,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 29.png" alt="" />
+                  <img src="/images/image 29.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -331,7 +331,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 34.png" alt="" />
+                  <img src="/images/image 34.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -341,7 +341,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 23.png" alt="" />
+                  <img src="/images/image 23.png" alt="" />
                 </div>
               </div>
               <div className="item">
@@ -351,7 +351,7 @@ function MainPage() {
                   <p className="item-price">USD 19</p>
                 </div>
                 <div className="item-right">
-                  <img src="src/assets/image 33.png" alt="" />
+                  <img src="/images/image 33.png" alt="" />
                 </div>
               </div>
             </div>
@@ -390,7 +390,7 @@ function MainPage() {
           <div className="recomended-items">
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/Bitmap.png" alt="" />
+                <img src="/images/Bitmap.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -399,7 +399,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/2 1.png" alt="" />
+                <img src="/images/2 1.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -408,7 +408,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 30.png" alt="" />
+                <img src="/images/image 30.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -417,7 +417,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 24.png" alt="" />
+                <img src="/images/image 24.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -426,7 +426,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/Bitmap (2).png" alt="" />
+                <img src="/images/Bitmap (2).png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -435,7 +435,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 86.png" alt="" />
+                <img src="/images/image 86.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -444,7 +444,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 26.png" alt="" />
+                <img src="/images/image 26.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -453,7 +453,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 90.png" alt="" />
+                <img src="/images/image 90.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -462,7 +462,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 26.png" alt="" />
+                <img src="/images/image 26.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -471,7 +471,7 @@ function MainPage() {
             </div>
             <div className="recommended-item">
               <div className="top">
-                <img src="src/assets/image 85.png" alt="" />
+                <img src="/images/image 85.png" alt="" />
               </div>
               <div className="bottom">
                 <h5>$10.99</h5>
@@ -485,7 +485,7 @@ function MainPage() {
           <div className="extra-services">
             <div className="extra-service">
               <div className="service-top">
-                <img src="src/assets/Mask group.png" alt="" />
+                <img src="/images/Mask group.png" alt="" />
               </div>
               <div className="service-bottom">
                 Source from <br /> Industry Hubs
@@ -493,7 +493,7 @@ function MainPage() {
             </div>
             <div className="extra-service">
               <div className="service-top">
-                <img src="src/assets/Mask group (1).png" alt="" />
+                <img src="/images/Mask group (1).png" alt="" />
               </div>
               <div className="service-bottom">
                 Customize Your <br /> Products
@@ -501,7 +501,7 @@ function MainPage() {
             </div>
             <div className="extra-service">
               <div className="service-top">
-                <img src="src/assets/image 106.png" alt="" />
+                <img src="/images/image 106.png" alt="" />
               </div>
               <div className="service-bottom">
                 Fast, reliable shipping by ocean or air
@@ -509,7 +509,7 @@ function MainPage() {
             </div>
             <div className="extra-service">
               <div className="service-top">
-                <img src="src/assets/image 107.png" alt="" />
+                <img src="/images/image 107.png" alt="" />
               </div>
               <div className="service-bottom">
                 Product monitoring <br />
@@ -523,7 +523,7 @@ function MainPage() {
           <div className="reigion-items">
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/AE@2x.png" alt="" />
+                <img src="/images/AE@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Arabic Emirates</p>
@@ -532,7 +532,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/EN@2x.png" alt="" />
+                <img src="/images/EN@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Australia</p>
@@ -541,7 +541,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/US@2x.png" alt="" />
+                <img src="/images/US@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">United States</p>
@@ -550,7 +550,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/RU@2x.png" alt="" />
+                <img src="/images/RU@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Russia</p>
@@ -559,7 +559,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/DE@2x.png" alt="" />
+                <img src="/images/DE@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Italy</p>
@@ -568,7 +568,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/DK@2x.png" alt="" />
+                <img src="/images/DK@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Denmark</p>
@@ -577,7 +577,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/FR@2x.png" alt="" />
+                <img src="/images/FR@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">France</p>
@@ -586,7 +586,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/AE@2x.png" alt="" />
+                <img src="/images/AE@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Arabic Emirates</p>
@@ -595,7 +595,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/CN@2x.png" alt="" />
+                <img src="/images/CN@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">China</p>
@@ -604,7 +604,7 @@ function MainPage() {
             </div>
             <div className="reigion-item">
               <div className="item-image">
-                <img src="src/assets/AE@2x.png" alt="" />
+                <img src="/images/AE@2x.png" alt="" />
               </div>
               <div className="item-description">
                 <p className="name">Arabic Emirates</p>
@@ -620,7 +620,7 @@ function MainPage() {
             world
           </p>
           <form action="">
-            <img src="src/assets/email.png" alt="" />
+            <img src="/images/email.png" alt="" />
             <input type="text" placeholder="Email" />
             <button>Subscribe</button>
           </form>
