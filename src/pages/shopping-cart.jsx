@@ -45,7 +45,7 @@ export default function ShoppingCart() {
                   <div className="item-img-box">
                     {item.image ? (
                       <img
-                        src={`http://localhost:5000${item.image}`}
+                        src={`${API_URL}${item.image}`}
                         alt={item.title}
                       />
                     ) : (

@@ -7,6 +7,7 @@ import basketIcon from "../assets/shopping_basket.png";
 import { useCart } from "../components/cartContent.jsx";
 
 function ProductDetail() {
+  const API_URL = import.meta.env.VITE_API_URL;
   const { productId } = useParams();
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -16,7 +17,7 @@ function ProductDetail() {
     const fetchProduct = async () => {
       try {
         const response = await fetch(
-          `http://localhost:5000/productDetail/${productId}`,
+          `${API_URL}/productDetail/${productId}`,
         );
 
         if (!response.ok) {
@@ -49,7 +50,7 @@ function ProductDetail() {
         <section className="product-overview">
           <div className="img-section">
             <img
-              src={`http://localhost:5000${product.imagePath}`}
+              src={`${API_URL}${product.imagePath}`}
               alt={product.name}
             />
           </div>

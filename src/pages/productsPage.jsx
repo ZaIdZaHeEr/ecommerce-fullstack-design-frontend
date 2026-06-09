@@ -3,6 +3,8 @@ import "./productsPage.css";
 import { useNavigate } from "react-router-dom";
 
 function ProductsPage() {
+    const API_URL = import.meta.env.VITE_API_URL;
+
   const [products, setProducts] = useState([]);
   const [toggleVariable, setToggleVariable] = useState(true);
 
@@ -20,7 +22,7 @@ function ProductsPage() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await fetch("http://localhost:5000/getProducts");
+        const res = await fetch("${API_URL}/getProducts");
         const data = await res.json();
 
         setProducts(data.products);
@@ -174,7 +176,7 @@ function ProductsPage() {
                   >
                     <div className="img-container">
                       <img
-                        src={`http://localhost:5000${product.imagePath}`}
+                        src={`${API_URL}${product.imagePath}`}
                         alt={product.name}
                       />
                     </div>
@@ -234,7 +236,7 @@ function ProductsPage() {
                   >
                     <div className="image-area">
                       <img
-                        src={`http://localhost:5000${product.imagePath}`}
+                        src={`${API_URL}${product.imagePath}`}
                         alt={product.name}
                       />
                     </div>
