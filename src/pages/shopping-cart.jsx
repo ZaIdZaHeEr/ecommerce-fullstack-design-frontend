@@ -7,6 +7,8 @@ import { useCart } from "../components/cartContent";
 import { useNavigate } from "react-router-dom";
 
 export default function ShoppingCart() {
+  const API_URL = import.meta.env.VITE_API_URL;
+
   const navigate = useNavigate();
   const { cartItems, updateQuantity, removeItem, removeAllItems } = useCart();
   console.log("CART PAGE:", cartItems);
@@ -44,10 +46,7 @@ export default function ShoppingCart() {
                   {/* Product Image */}
                   <div className="item-img-box">
                     {item.image ? (
-                      <img
-                        src={`${API_URL}${item.image}`}
-                        alt={item.title}
-                      />
+                      <img src={`${API_URL}${item.image}`} alt={item.title} />
                     ) : (
                       <div className="img-placeholder"></div>
                     )}
